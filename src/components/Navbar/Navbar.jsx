@@ -1,6 +1,5 @@
 import React from 'react';
 import MenuHanburger from './MenuHanburger';
-import { NavLink } from 'react-router-dom';
 import styled from 'styled-components'
 
 const Nav = styled.nav`
@@ -20,7 +19,7 @@ const Navbar = () => {
     return (
         <Nav> 
             <div className="logo">
-                Nav Bar
+                <h1>LC Logo</h1>
                 {/* <NavLink to="/">Home</NavLink>
                 <NavLink to="/projects">Projects</NavLink>
                 <NavLink   NavLink to="/about">About</NavLink>
