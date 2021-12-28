@@ -4,10 +4,12 @@ import Projects from './pages/Projects'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar/Navbar';
+import GlobalStyles from './styles/Global';
 
 const App = () => {
     return(
         <div className="app-container">
+            <GlobalStyles />
         <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />

@@ -1,32 +1,21 @@
 import React from 'react';
 import MenuHanburger from './MenuHanburger';
-import styled from 'styled-components'
+import { NavStyled } from '../../styles/Nav';
 
-const Nav = styled.nav`
-    width: 100%;
-    height: 55px;
-    border-bottom: 2px solid #f1f1f1;
-    padding: 0 20px;
-    display: flex;
-    justify-content: space-between;
-    
-    .logo {
-    padding: 15px 0;
-  }
-`
+
 
 const Navbar = () => {
     return (
-        <Nav> 
+        <NavStyled> 
             <div className="logo">
-                <h1>LC Logo</h1>
+                <h1>LUIS</h1>
                 {/* <NavLink to="/">Home</NavLink>
                 <NavLink to="/projects">Projects</NavLink>
                 <NavLink   NavLink to="/about">About</NavLink>
                 <NavLink to="/contact">Contact</NavLink> */}
             </div>
             <MenuHanburger />
-        </Nav>
+        </NavStyled>
     );
 }
 export default Navbar;
