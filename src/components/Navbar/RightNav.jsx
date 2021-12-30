@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import { LinkStyled } from '../../styles/Nav'
 import styled from 'styled-components'
 
