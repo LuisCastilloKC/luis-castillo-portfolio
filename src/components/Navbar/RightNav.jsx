@@ -34,9 +34,9 @@ const RightNav = ({ open }) => {
     return(
         <Ul open={open}>
             <li><LinkStyled to='/'>Home</LinkStyled></li>
-            <li><LinkStyled to='/projects'>Project</LinkStyled></li>
-            <li><LinkStyled to='/about'>About</LinkStyled></li>
-            <li><LinkStyled to='/contact'>Contact</LinkStyled></li>
+            <li><LinkStyled to='/#about'>About</LinkStyled></li>
+            <li><LinkStyled to='/#projects'>Project</LinkStyled></li>
+            <li><LinkStyled to='/#contact'>Contact</LinkStyled></li>
         </Ul>
     )
 }

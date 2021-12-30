@@ -19,3 +19,22 @@ export const HomeContainerStyled = styled.div`
     }
 
 `;
+
+export const AboutContainerStyled = styled.div`
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        
+        color: #ffffff;
+        font-size: 3.5em;
+        margin-top: 300px;
+        
+    }
+
+    p {
+        color: #ffffff;
+        
+    }
+`;
