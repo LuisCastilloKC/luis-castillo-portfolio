@@ -38,3 +38,17 @@ export const AboutContainerStyled = styled.div`
         
     }
 `;
+
+export const ProjectsContainerStyled = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    
+
+    h1 {
+        color: #ffffff;
+        font-size: 3.5em;
+    }
+
+`;
