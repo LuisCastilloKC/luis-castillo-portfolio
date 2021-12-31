@@ -1,26 +1,34 @@
 import styled from "styled-components";
 
 export const SocialMedia = styled.div`
-    font-size: 1.5em;
-    margin-top: 300px;
+    display: flex;
+    flex-direction: column;    
     position: fixed;
-    right: 20px;
+    right: 10px;
     
-    a{
+    .icon {
+        text-decoration: none;
         color: #fff;
-    }
+        font-size: 1.5rem;
+        margin: 10px;
+        padding: 5px;
 
-    a:hover {
-        color: #fee12b;
-    }
+        a{
+            color: #fff;
+        }
     
-    div{
-        margin: 15px 20px 0px 25px;
-        color: #fff;
+        a:hover {
+            color: #fee12b;   
+        }
     }
     
     @media (max-width: 768px) {
+        display: flex;
+        flex-direction: row;
         left: 20px;
+        position: static;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 
 `;
