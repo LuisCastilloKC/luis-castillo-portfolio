@@ -12,6 +12,10 @@ padding: 0 30px;
 display: flex;
 justify-content: space-between;
 
+a:hover {
+    color: #fee12b;
+}
+
 .logo {
 padding: 15px 0;
 }
@@ -20,6 +24,7 @@ padding: 15px 0;
 export const LinkStyled = styled(Link)`
     color: #FFFFFF;
     text-decoration: none;
+
 `
 
 

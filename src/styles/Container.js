@@ -6,6 +6,7 @@ export const HomeContainerStyled = styled.div`
     text-align: center;
     flex-direction: column;
     margin: 3em 0em 25em 1em;
+    
 
     .hello {
         color: #fee12b;
@@ -15,6 +16,7 @@ export const HomeContainerStyled = styled.div`
     }
 
     .name {
+        
         font-size: 3.5rem;
         font-weight: bold;
     }
