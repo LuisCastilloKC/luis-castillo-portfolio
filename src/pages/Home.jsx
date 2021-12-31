@@ -9,10 +9,11 @@ const Home = () => {
     return(
     <> 
         <HomeContainerStyled>
-              <div>
-                <h3>Hi, I am</h3> 
-                <h1>Luis Castillo</h1>
-                <p>A Full-Stack Web Developer</p> 
+            <div className='hello'>Hi, I am</div>
+            <div className='name'>Luis Castillo</div>
+            <div className='intro'>
+            A Full-Stack Web Developer with passion for creating
+            the new technologies 
             </div>
         </HomeContainerStyled>
         <SocialMedia>

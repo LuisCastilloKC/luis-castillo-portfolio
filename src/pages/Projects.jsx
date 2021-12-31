@@ -5,9 +5,9 @@ const Projects = () => {
     return (
         <ProjectsContainerStyled>
             <h1>Projects</h1>
-            <div>
-                <h2>P</h2>
-            </div>
+            <div>P1</div>
+            <div>P2</div>
+            <div>P3</div>
         </ProjectsContainerStyled>
     );
 }

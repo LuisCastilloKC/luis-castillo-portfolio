@@ -1,21 +1,25 @@
 import styled from 'styled-components'
 
 export const HomeContainerStyled = styled.div`
+    color: #fff;
     display: flex;
-    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 3em 0em 25em 1em;
 
-    h1 {
-        color: #ffffff;
-        font-size: 3.5em;
+    .hello {
+        color: #fee12b;
+        font-weight: bold;
+        margin-right: 17.0em;
     }
 
-    h3 {
-         color: #fee12b;
+    .name {
+        font-size: 3.5rem;
+        font-weight: bold;
     }
 
-    p {
-        color: #ffffff;
-        text-align: center;
+    .intro {
+
     }
 
 `;
