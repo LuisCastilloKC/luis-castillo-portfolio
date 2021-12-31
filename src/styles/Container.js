@@ -9,8 +9,9 @@ export const HomeContainerStyled = styled.div`
 
     .hello {
         color: #fee12b;
+        font-size: 1.2rem;
         font-weight: bold;
-        margin-right: 17.0em;
+        margin-right: 13.5em;
     }
 
     .name {
@@ -47,13 +48,22 @@ export const AboutContainerStyled = styled.div`
 export const ProjectsContainerStyled = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 800px;
     
-
-    h1 {
+    align-items: center;
+    margin-bottom: 150px;
+    
+    .pj {
         color: #ffffff;
-        font-size: 3.5em;
+        background-color: red;
+        padding: 20px;
+        margin: 20px;
     }
 
+`;
+
+export const TitleStyled = styled.h1`
+        margin-top: 300px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 3.5rem; 
 `;

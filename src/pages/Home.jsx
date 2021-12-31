@@ -17,16 +17,16 @@ const Home = () => {
             </div>
         </HomeContainerStyled>
         <SocialMedia>
-            <div> 
+            <div className='icon'> 
                 <a href="https://github.com/LuisCastilloKC" rel="noreferrer" target="_blank"><FaGithub /></a>
             </div>
-            <div> 
+            <div className='icon'> 
                 <a href="https://www.linkedin.com/in/luis-castillokc" rel="noreferrer" target="_blank"><FaLinkedinIn /></a>
-            </div>
-            <div> 
+            </div >
+            <div className='icon'> 
                 <a href="https://twitter.com/LuisCastilloKC" rel="noreferrer" target="_blank"><FaTwitter /></a>
             </div>
-            <div> 
+            <div className='icon'> 
                 <a href="mailto:mr.luiscastillo@gmail.com" rel="noreferrer" target="_blank"><FaEnvelope /></a>
             </div>
         </SocialMedia>
