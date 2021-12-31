@@ -1,6 +1,7 @@
 import React from 'react';
 import { HomeContainerStyled } from '../styles/Container';
 
+
 const Home = () => {
     return(
         <HomeContainerStyled>
