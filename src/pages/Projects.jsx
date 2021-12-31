@@ -4,9 +4,7 @@ import { ProjectsContainerStyled } from '../styles/Container';
 const Projects = () => {
     return (
         <ProjectsContainerStyled>
-            <div>
-                <h1>Projects</h1>
-            </div>
+            <h1>Projects</h1>
             <div>
                 <h2>P</h2>
             </div>

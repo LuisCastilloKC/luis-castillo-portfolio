@@ -1,7 +1,5 @@
 import React from 'react';
 import { LinkStyled,  RightNavStyled } from '../../styles/Nav'
-//import { FaEnvelope, FaGithub, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
-
 
 const RightNav = ({ open }) => {
     
@@ -13,10 +11,6 @@ const RightNav = ({ open }) => {
             <li><LinkStyled to='/#about'>About</LinkStyled></li>
             <li><LinkStyled to='/#projects'>Project</LinkStyled></li>
             <li><LinkStyled to='/#contact'>Contact</LinkStyled></li>
-            {/* <FaGithub />
-            <FaTwitter />
-            <FaEnvelope />
-            <FaLinkedinIn />   */}
         </RightNavStyled>
       </div>
       </>

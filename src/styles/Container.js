@@ -10,7 +10,7 @@ export const HomeContainerStyled = styled.div`
     }
 
     h3 {
-         color: red;
+         color: #fee12b;
     }
 
     p {
@@ -23,8 +23,8 @@ export const HomeContainerStyled = styled.div`
 export const AboutContainerStyled = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
+    
 
     h1 {
         
