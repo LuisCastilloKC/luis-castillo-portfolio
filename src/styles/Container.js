@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HomeContainerStyled = styled.div`
+    export const HomeContainerStyled = styled.div`
     color: #fff;
     display: flex;
     text-align: center;
@@ -27,7 +27,7 @@ export const HomeContainerStyled = styled.div`
 
 `;
 
-export const AboutContainerStyled = styled.div`
+    export const AboutContainerStyled = styled.div`
     display: flex;
     justify-content: center;
     text-align: center;
@@ -46,5 +46,12 @@ export const AboutContainerStyled = styled.div`
         
     }
 `;
+
+    export const ProjectsContainerStyled = styled.div`
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ `
 
 
