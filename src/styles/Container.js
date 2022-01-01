@@ -47,25 +47,4 @@ export const AboutContainerStyled = styled.div`
     }
 `;
 
-export const ProjectsContainerStyled = styled.div`
-    display: flex;
-    justify-content: center;
-    
-    align-items: center;
-    margin-bottom: 150px;
-    
-    .pj {
-        color: #ffffff;
-        background-color: red;
-        padding: 20px;
-        margin: 20px;
-    }
 
-`;
-
-export const TitleStyled = styled.h1`
-        margin-top: 300px;
-        text-align: center;
-        color: #ffffff;
-        font-size: 3.5rem; 
-`;

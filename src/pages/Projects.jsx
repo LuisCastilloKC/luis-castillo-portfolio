@@ -1,16 +1,29 @@
 import React from 'react';
-import { ProjectsContainerStyled, TitleStyled } from '../styles/Container';
+import { ProjectH1, ProjectH2, ProjectsContainerStyled, ProjectWrapper,ProjectCards } from '../styles/Container';
+
 
 const Projects = () => {
     return (
         <> 
-            <TitleStyled>Projects</TitleStyled> 
             <ProjectsContainerStyled>
-                <div className='pj'>P1</div>
-                <div className='pj'>P2</div>
-                <div className='pj'>P3</div>
+            <ProjectH1>Projects</ProjectH1> 
+                <ProjectWrapper>
+                    <ProjectCards>
+                        <ProjectH2>Project 1</ProjectH2>                       
+                    </ProjectCards>
+                    <ProjectCards>
+                        <ProjectH2>Project 2</ProjectH2>                       
+                    </ProjectCards>
+                    <ProjectCards>
+                        <ProjectH2>Project 3</ProjectH2>                       
+                    </ProjectCards>
+                    <ProjectCards>
+                        <ProjectH2>Project 4</ProjectH2>                       
+                    </ProjectCards>
+                </ProjectWrapper>
             </ProjectsContainerStyled>
         </>
     );
 }
 export default Projects;
+
