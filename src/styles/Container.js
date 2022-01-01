@@ -52,6 +52,11 @@ import styled from 'styled-components'
         flex-direction: column;
         justify-content: center;
         align-items: center;
- `
-
-
+    `
+    export const ProjectWrapper = styled.div`
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        grid-gap: 16px;
+        padding: 0 50px;
+    `
