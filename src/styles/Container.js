@@ -77,4 +77,14 @@ import styled from 'styled-components'
         cursor: pointer;
         }
     `
+    export const ProjectH1 = styled.h1`
+        font-size: 2rem;
+        color: #fff;
+        margin-bottom: 30px;
+    `
+    export const ProjectH2 = styled.h2`
+        font-size: 1rem;
+        margin-bottom: 10px;
+    `
+
 
