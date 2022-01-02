@@ -36,22 +36,35 @@ import styled from 'styled-components'
 
     export const AboutContainerStyled = styled.div`
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     margin-bottom: 600px;
 
-    h1 {
-        
-        color: #ffffff;
-        font-size: 3.5em;
-        
-    }
+    `
 
-    p {
-        color: #ffffff;
+    export const AboutWrapper = styled.div`
+        display: flex;
+        flex-direction: flex-start;
+        justify-content: center;
+        padding: 0 100px;
+    `
+
+    export const AboutContentContainer = styled.div`
+        background: transparent;
+    `
+    export const AboutH1 = styled.h1`
+        color: #fff;
+        font-size: 3.5rem;
+        margin-bottom: 30px;
+    `
+    export const AboutP = styled.p`
+        color: #fff;
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.3;
         
-    }
-`;
+    `
 
     export const ProjectsContainerStyled = styled.div`
         display: flex;
@@ -102,5 +115,6 @@ import styled from 'styled-components'
     export const ProjectP = styled.p`
         text-align: left;
     `
+    
 
 
