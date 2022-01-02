@@ -23,6 +23,7 @@ import styled from 'styled-components'
     }
 
     .intro {
+        color: #D3D3D3;
         margin-left: 5px;
     }
 
@@ -31,8 +32,7 @@ import styled from 'styled-components'
         margin: 10em 0em 30em 5em;
   }
 
-
-`;
+    `;
 
     export const AboutContainerStyled = styled.div`
     display: flex;
@@ -52,6 +52,7 @@ import styled from 'styled-components'
 
     export const AboutContentContainer = styled.div`
         background: transparent;
+        margin: 0px 300px 0px 300px;
     `
     export const AboutH1 = styled.h1`
         color: #fff;
@@ -59,10 +60,11 @@ import styled from 'styled-components'
         margin-bottom: 30px;
     `
     export const AboutP = styled.p`
-        color: #fff;
+        color: #D3D3D3;
         text-align: left;
         font-size: 14px;
         line-height: 1.3;
+        
         
     `
 
