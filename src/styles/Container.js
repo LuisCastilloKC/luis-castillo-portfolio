@@ -11,7 +11,7 @@ import styled from 'styled-components'
 
     .hello {
         color: #fee12b;
-        font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
+        font-size: clamp(15px, 18px, 25px);
         font-weight: bold;
         margin-left: 5px;
     }
@@ -44,7 +44,6 @@ import styled from 'styled-components'
         
         color: #ffffff;
         font-size: 3.5em;
-        /* margin-top: 300px; */
         
     }
 
@@ -63,7 +62,7 @@ import styled from 'styled-components'
     `
     export const ProjectWrapper = styled.div`
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr ;
         align-items: center;
         grid-gap: 16px;
         padding: 0 50px;

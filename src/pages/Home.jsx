@@ -11,9 +11,11 @@ const Home = () => {
         <HomeContainerStyled>
             <div className='hello'>Hi, I am</div>
             <div className='name'>Luis Castillo</div>
+            {/* <div className='name'>I can build web app.</div> */}
             <div className='intro'>
-            A Full-Stack Web Developer with passion for creating
-            the new technologies 
+            A Full-Stack Web Developer base on New York, USA. I love building  <br />tools that are user-friendly, simple and delighful. 
+            {/* with a passion for building
+            the new technologie. <br />I enjoy using my skill set to make the web simple. */}
             </div>
         </HomeContainerStyled>
         <SocialMedia>
