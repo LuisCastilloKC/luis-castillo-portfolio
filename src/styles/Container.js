@@ -52,6 +52,7 @@ import styled from 'styled-components'
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 100px;
     `
     export const ProjectWrapper = styled.div`
         display: grid;
@@ -62,11 +63,9 @@ import styled from 'styled-components'
     `
     export const ProjectCards = styled.div`
         background: #fff;
-        display: flex;
-        flex-direction: flex-start;
-        align-items: center;
         border-radius: 10px;
-        max-height: 340px;
+        height: 340px;
+        width: 300px;
         padding: 30px;
         box-shadow: 0 1px 3px rgba(0,0,0,0.2);
         transform: all 0.2 ease-in-out;
@@ -78,13 +77,24 @@ import styled from 'styled-components'
         }
     `
     export const ProjectH1 = styled.h1`
-        font-size: 2rem;
+        font-size: 3.5rem;
         color: #fff;
         margin-bottom: 30px;
     `
-    export const ProjectH2 = styled.h2`
-        font-size: 1rem;
-        margin-bottom: 10px;
+    export const ProjectH3 = styled.h3`
+        text-align: center;
+        font-size: 0.9rem;
+        margin-bottom: 10px;    
+    `
+    export const ProjectLi = styled.li`
+       font-weight: none;
+    `
+
+    export const ProjectParagraphContainer = styled.div`
+       margin-left: 2px;
+    `
+    export const ProjectP = styled.p`
+        text-align: left;
     `
 
 
