@@ -1,29 +1,36 @@
 import styled from 'styled-components'
 
     export const HomeContainerStyled = styled.div`
+    
     color: #fff;
     display: flex;
-    text-align: center;
+    text-align: left;
     flex-direction: column;
-    margin: 3em 0em 25em 1em;
+    margin: 10em 0em 25em 15em;
     
 
     .hello {
         color: #fee12b;
-        font-size: 1.2rem;
+        font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
         font-weight: bold;
-        margin-right: 13.5em;
+        margin-left: 5px;
     }
 
     .name {
         
-        font-size: 3.5rem;
+        font-size: clamp(40px, 8vw, 80px);
         font-weight: bold;
     }
 
     .intro {
-
+        margin-left: 5px;
     }
+
+
+    @media (max-width: 768px) {
+        margin: 10em 0em 30em 5em;
+  }
+
 
 `;
 
@@ -31,7 +38,7 @@ import styled from 'styled-components'
     display: flex;
     justify-content: center;
     text-align: center;
-    
+    margin-bottom: 600px;
 
     h1 {
         

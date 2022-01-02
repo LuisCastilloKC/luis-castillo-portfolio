@@ -5,11 +5,17 @@ export const SocialMedia = styled.div`
     flex-direction: column;    
     position: fixed;
     right: 10px;
+    top: 85%;
+    -webkit-transform: translateY(-85%);
+    -ms-transform: translateY(-85%);
+    transform: translateY(-85%);
+  
+   
     
     .icon {
         text-decoration: none;
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin: 10px;
         padding: 5px;
 
