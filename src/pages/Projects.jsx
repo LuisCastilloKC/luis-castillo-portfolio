@@ -11,7 +11,8 @@ const Projects = () => {
                     <ProjectCards>
                         <ProjectH3>My Nutritionist</ProjectH3>
                         <ProjectParagraphContainer>
-                            <ProjectP>Project Description go here and more for the project and I knoe ofedhng odf dong odd nodfn undo ndo od dos do ods bodubodubfudbu dou udfb udfbub u
+                            <ProjectP>
+                                Project Description go here and more for the project and 
                             </ProjectP>
                         </ProjectParagraphContainer>
                     </ProjectCards>

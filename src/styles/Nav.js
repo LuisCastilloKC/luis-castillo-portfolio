@@ -29,6 +29,7 @@ export const LinkStyled = styled(Link)`
 
 
 export const RightNavStyled = styled.div`
+
     list-style: none;
     display: flex;
     flex-flow: row nowrap;
