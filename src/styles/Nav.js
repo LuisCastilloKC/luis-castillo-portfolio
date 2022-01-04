@@ -2,15 +2,16 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom' 
 
 export const NavStyled = styled.nav`
-position: sticky;
+position: fixed;
 width: 100%;
 height: 55px;
-border-bottom: 2px solid #05182c;
-background-color: transparent;
+border-bottom: 2px;
+backdrop-filter: blur(60px);
 color: #FFF;
 padding: 0 30px;
 display: flex;
 justify-content: space-between;
+top: 0;
 
 a:hover {
     color: #fee12b;
