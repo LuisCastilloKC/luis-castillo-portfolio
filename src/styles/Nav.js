@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom' 
 
 export const NavStyled = styled.nav`
-position: fixed;
+position: sticky;
 width: 100%;
 height: 55px;
 border-bottom: 2px;

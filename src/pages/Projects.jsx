@@ -12,14 +12,26 @@ const Projects = () => {
                         <ProjectH3>My Nutritionist</ProjectH3>
                         <ProjectParagraphContainer>
                             <ProjectP>
-                                Project Description go here and more for the project and 
+                                Project in Progress.... 
                             </ProjectP>
                         </ProjectParagraphContainer>
                     </ProjectCards>
                     <ProjectCards>
                         <ProjectH3>MLB Voting App</ProjectH3>
                         <ProjectParagraphContainer>
-                            <ProjectP>Project Description go here</ProjectP>
+                            <ProjectP>
+                               This app is been created with RactJS in the front end and Rails-API
+                               in the back in.
+
+                               Languages
+                               - RactJS (FrontEnd)
+                               - Rails (Backend)
+
+                               Library
+                               - Redux
+                               - Styled Components
+
+                            </ProjectP>
                         </ProjectParagraphContainer>
                     </ProjectCards>
                     <ProjectCards>

@@ -10,7 +10,6 @@ export const SocialMedia = styled.div`
     -ms-transform: translateY(-85%);
     transform: translateY(-85%);
   
-   
     
     .icon {
         text-decoration: none;
@@ -26,6 +25,7 @@ export const SocialMedia = styled.div`
         a:hover {
             color: #fee12b;   
         }
+       
     }
     
     @media (max-width: 768px) {
