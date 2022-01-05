@@ -23,7 +23,7 @@ const Projects = () => {
                                This app is been created with RactJS in the front end and Rails-API
                                in the back in.
 
-                               Languages
+                               Stacks:
                                - RactJS (FrontEnd)
                                - Rails (Backend)
 
@@ -37,7 +37,14 @@ const Projects = () => {
                     <ProjectCards>
                         <ProjectH3>Luis Castillo PortFolio</ProjectH3>
                         <ProjectParagraphContainer>
-                            <ProjectP>Project Description go here and more for the project and I knoe ofedhng odf dong odd nodfn undo ndo od dos do ods bodubodubfudbu dou udfb udfbub u
+                            <ProjectP>
+                               - Personal Project to show case a little bit of me and my skills
+
+                               Stack:
+                               ReactJS
+                               Styled Components
+                               
+
                             </ProjectP>
                         </ProjectParagraphContainer>
                     </ProjectCards>
