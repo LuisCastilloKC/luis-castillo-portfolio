@@ -44,6 +44,12 @@ export const HomeH1 = styled.h1`
             font-size: 32px;
         }
     `
+    export const HomeH3 = styled.h3`
+    color: #fee12b;
+    font-size: clamp(15px, 18px, 25px);
+    font-weight: bold;
+`
+
 
 
 
