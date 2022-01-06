@@ -21,7 +21,8 @@ import styled from 'styled-components'
 
     @media screen and (max-width: 768px){
         font-size: 15px;
-        padding: 8px 318px 8px 24px;
+        padding: 8px auto 8px auto;
+
     }
 
     @media screen and (max-width: 480px){
@@ -35,7 +36,7 @@ import styled from 'styled-components'
         font-weight: bold;
 
         @media screen and (max-width: 768px){
-            font-size: 40px;
+            font-size: 3rem;
         }
 
         @media screen and (max-width: 480px){
@@ -53,7 +54,7 @@ import styled from 'styled-components'
         max-width: 620px;
 
         @media screen and (max-width: 768px){
-            font-size: 15px;    
+            font-size: 20px;    
         }
 
         @media screen and (max-width: 480px){
