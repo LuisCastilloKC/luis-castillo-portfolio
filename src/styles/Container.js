@@ -66,20 +66,27 @@ import styled from 'styled-components'
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin-bottom: 600px;
-
+        margin: 0 24px;
     `
 
     export const AboutWrapper = styled.div`
-        display: flex;
-        flex-direction: flex-start;
-        justify-content: center;
-        padding: 0 100px;
+        display: grid;
+        z-index: 1;
+        height: 860px;
+        width: 100%;
+        max-width: 1100px;
+        margin-right: auto;
+        margin-left: auto;
     `
 
     export const AboutContentContainer = styled.div`
+        display:flex;
         background: transparent;
-        margin: 0px 300px 0px 300px;
+        margin: 0px 200px 0px 200px;
+
+        @media screen and (max-width: 768px){
+            margin: 0px auto 0px auto;    
+        }
     `
     export const AboutH1 = styled.h1`
         color: #fff;
@@ -89,10 +96,8 @@ import styled from 'styled-components'
     export const AboutP = styled.p`
         color: #D3D3D3;
         text-align: left;
-        font-size: 14px;
-        line-height: 1.3;
-        
-        
+        font-size: 20px;
+        line-height: 1.3;   
     `
 
     export const ProjectsContainerStyled = styled.div`
@@ -101,8 +106,6 @@ import styled from 'styled-components'
         justify-content: center;
         align-items: center;
         margin-bottom: 100px;
-
-       
     `
     export const ProjectWrapper = styled.div`
         display: grid;
