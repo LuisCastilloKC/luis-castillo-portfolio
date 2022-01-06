@@ -5,7 +5,8 @@ import { ProjectH1, ProjectH3, ProjectParagraphContainer, ProjectP, ProjectsCont
 const Projects = () => {
     return (
         <> 
-            <ProjectsContainerStyled>
+            
+            <ProjectsContainerStyled id="projects">
             <ProjectH1>Projects</ProjectH1> 
                 <ProjectWrapper>
                     <ProjectCards>

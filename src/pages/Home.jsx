@@ -8,8 +8,8 @@ import { SocialMedia } from '../styles/SocialMedia';
 const Home = () => {
     return(
     <> 
-    <HomeContainerStyled>
-        <HomeContent  > 
+    <HomeContainerStyled id="/">
+        <HomeContent> 
             <HomeH3>Hi, I am</HomeH3>
             <HomeH1>Luis Castillo</HomeH1>
             <HomeP >

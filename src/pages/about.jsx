@@ -4,7 +4,7 @@ import { AboutContainerStyled, AboutWrapper, AboutContentContainer, AboutH1, Abo
 const About = () => {
     return (
         <> 
-            <AboutContainerStyled>
+            <AboutContainerStyled id="about">
                     <AboutH1>About Me</AboutH1>
                 <AboutWrapper>
                     <AboutContentContainer>

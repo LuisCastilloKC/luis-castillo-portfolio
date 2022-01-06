@@ -5,7 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar/Navbar';
 import GlobalStyles from './styles/Global';
-import ScrollToTop from './components/ScrollToTop';
+
 
 
 const App = () => {
@@ -13,7 +13,6 @@ const App = () => {
         <div className="app-container">
             <GlobalStyles />
         <Router>
-        <ScrollToTop />
             <Navbar />
                 <Routes>
                     <Route path="/#" element={<Home />} />

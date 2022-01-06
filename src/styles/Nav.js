@@ -1,6 +1,6 @@
 import styled from "styled-components";
 // import { Link as LinkR} from 'react-router-dom' 
-import { NavHashLink as LinkH } from 'react-router-hash-link';
+import { Link } from 'react-scroll'
 
 
 export const NavStyled = styled.nav`
@@ -24,7 +24,7 @@ padding: 15px 0;
 }
 `
 
-export const LinkStyled = styled(LinkH)`
+export const LinkStyled = styled(Link)`
     color: #FFFFFF;
     text-decoration: none;
 

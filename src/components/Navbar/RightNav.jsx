@@ -2,16 +2,17 @@ import React from 'react';
 import { LinkStyled,  RightNavStyled } from '../../styles/Nav'
 
 
+
 const RightNav = ({ open }) => {
-    
+
     return(
       <> 
       <div>
         <RightNavStyled open={open}>
-            <li><LinkStyled smooth to='/#'>Home</LinkStyled></li>
-            <li><LinkStyled smooth to='/#bout'>About</LinkStyled></li>
-            <li><LinkStyled smooth to='/#projects'>Project</LinkStyled></li>
-            <li><LinkStyled smooth to='/#contact'>Contact</LinkStyled></li>
+            <li><LinkStyled to='/'smooth={true} duration={500} spy={true} exact={true}>Home</LinkStyled></li>
+            <li><LinkStyled to='about'smooth={true} duration={500} spy={true} exact={true}>About</LinkStyled></li>
+            <li><LinkStyled to='projects'smooth={true} duration={500} spy={true} exact={true}>Project</LinkStyled></li>
+            <li><LinkStyled to='contact' smooth={true} duration={500} spy={true} exact={true}>Contact</LinkStyled></li>
         </RightNavStyled>
       </div>
       </>
