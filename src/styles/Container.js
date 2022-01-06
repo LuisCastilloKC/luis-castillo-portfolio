@@ -1,5 +1,14 @@
 import styled from 'styled-components'
 
+    export const HomeContainerStyled = styled.div`
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+        height: 600px;
+        position: relative;
+        z-index: 1;
+    `;
 
     export const AboutContainerStyled = styled.div`
     display: flex;
