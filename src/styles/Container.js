@@ -1,38 +1,5 @@
 import styled from 'styled-components'
 
-    export const HomeContainerStyled = styled.div`
-    
-    color: #fff;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    margin: 10em 0em 25em 15em;
-    
-
-    .hello {
-        color: #fee12b;
-        font-size: clamp(15px, 18px, 25px);
-        font-weight: bold;
-        margin-left: 5px;
-    }
-
-    .name {
-        
-        font-size: clamp(40px, 8vw, 80px);
-        font-weight: bold;
-    }
-
-    .intro {
-        color: #D3D3D3;
-        margin-left: 5px;
-    }
-
-
-    @media (max-width: 768px) {
-        margin: 10em 0em 30em 5em;
-  }
-
-    `;
 
     export const AboutContainerStyled = styled.div`
     display: flex;

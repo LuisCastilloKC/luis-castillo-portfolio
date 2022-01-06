@@ -9,14 +9,6 @@ const Projects = () => {
             <ProjectH1>Projects</ProjectH1> 
                 <ProjectWrapper>
                     <ProjectCards>
-                        <ProjectH3>My Nutritionist</ProjectH3>
-                        <ProjectParagraphContainer>
-                            <ProjectP>
-                                Project in Progress.... 
-                            </ProjectP>
-                        </ProjectParagraphContainer>
-                    </ProjectCards>
-                    <ProjectCards>
                         <ProjectH3>MLB Voting App</ProjectH3>
                         <ProjectParagraphContainer>
                             <ProjectP>
@@ -30,20 +22,6 @@ const Projects = () => {
                                Library
                                - Redux
                                - Styled Components
-
-                            </ProjectP>
-                        </ProjectParagraphContainer>
-                    </ProjectCards>
-                    <ProjectCards>
-                        <ProjectH3>Luis Castillo PortFolio</ProjectH3>
-                        <ProjectParagraphContainer>
-                            <ProjectP>
-                               - Personal Project to show case a little bit of me and my skills
-
-                               Stack:
-                               ReactJS
-                               Styled Components
-                               
 
                             </ProjectP>
                         </ProjectParagraphContainer>

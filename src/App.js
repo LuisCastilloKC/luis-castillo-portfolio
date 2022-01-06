@@ -16,14 +16,16 @@ const App = () => {
         <ScrollToTop />
             <Navbar />
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/about" element={<About />} />
-                    <Route path="/projects" element={<Projects />} />
-                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/#" element={<Home />} />
+                    <Route path="/#about" element={<About />} />
+                    <Route path="/#projects" element={<Projects />} />
+                    <Route path="/#contact" element={<Contact />} />
                 </Routes>
-        </Router>
+            <Home />
             <About />
             <Projects />
+            <Contact />
+        </Router>
         </div>
     );
 };

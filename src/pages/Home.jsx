@@ -1,5 +1,5 @@
 import React from 'react';
-import { HomeContainerStyled } from '../styles/Container';
+import { HomeContainerStyled, HomeContent, HomeH1, HomeP,HomeH3 } from '../styles/Container';
 import { FaEnvelope, FaGithub, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
 import { SocialMedia } from '../styles/SocialMedia';
 
@@ -8,15 +8,15 @@ import { SocialMedia } from '../styles/SocialMedia';
 const Home = () => {
     return(
     <> 
-        <HomeContainerStyled>
-            <div className='hello'>Hi, I am</div>
-            <div className='name'>Luis Castillo</div>
-            {/* <div className='name'>I can build web app.</div> */}
-            <div className='intro'>
-            A Full-Stack Web Developer base on New York, USA. I love building  <br />tools that are user-friendly, simple and delighful. 
-            {/* with a passion for building
-            the new technologie. <br />I enjoy using my skill set to make the web simple. */}
-            </div>
+    <HomeContainerStyled>
+        <HomeContent  > 
+            <HomeH3>Hi, I am</HomeH3>
+            <HomeH1>Luis Castillo</HomeH1>
+            <HomeP >
+            A Full-Stack Web Developer base on New York, USA. 
+            I love buildingtools that are user-friendly, simple and delighful.
+            </HomeP>
+            </HomeContent>
         </HomeContainerStyled>
         <SocialMedia>
             <div className='icon'> 

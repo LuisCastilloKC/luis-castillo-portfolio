@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import { Link } from 'react-router-dom' 
+// import { Link as LinkR} from 'react-router-dom' 
+import { NavHashLink as LinkH } from 'react-router-hash-link';
+
 
 export const NavStyled = styled.nav`
 position: sticky;
@@ -22,7 +24,7 @@ padding: 15px 0;
 }
 `
 
-export const LinkStyled = styled(Link)`
+export const LinkStyled = styled(LinkH)`
     color: #FFFFFF;
     text-decoration: none;
 
