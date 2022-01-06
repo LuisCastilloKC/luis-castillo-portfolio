@@ -49,6 +49,20 @@ export const HomeH1 = styled.h1`
     font-size: clamp(15px, 18px, 25px);
     font-weight: bold;
 `
+export const HomeP = styled.p`
+        color: #D3D3D3;;
+        font-size: 20px;
+        max-width: 620px;
+
+        @media screen and (max-width: 768px){
+            font-size: 15px;    
+        }
+
+        @media screen and (max-width: 480px){
+            font-size: 18px;
+        }
+    `
+
 
 
 
