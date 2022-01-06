@@ -10,28 +10,26 @@ import styled from 'styled-components'
         z-index: 1;
     `;
 
-export const HomeContent = styled.div`
-z-index: 3;
-max-width: 1200px;
-position: absolute;
-padding: 8px 24px;
-display: flex;
-flex-direction: column;
-align-items: left;
+    export const HomeContent = styled.div`
+        z-index: 3;
+        max-width: 1200px;
+        position: absolute;
+        padding: 8px 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
 
-@media screen and (max-width: 768px){
-    font-size: 15px;
-    padding: 8px 318px 8px 24px;
-    
-    
-}
+    @media screen and (max-width: 768px){
+        font-size: 15px;
+        padding: 8px 318px 8px 24px;
+    }
 
-@media screen and (max-width: 480px){
-    font-size: 18px;
-} 
-`
+    @media screen and (max-width: 480px){
+        font-size: 18px;
+    } 
+    `
 
-export const HomeH1 = styled.h1`
+    export const HomeH1 = styled.h1`
         color: #fff;
         font-size: clamp(40px, 8vw, 80px);
         font-weight: bold;
@@ -45,11 +43,11 @@ export const HomeH1 = styled.h1`
         }
     `
     export const HomeH3 = styled.h3`
-    color: #fee12b;
-    font-size: clamp(15px, 18px, 25px);
-    font-weight: bold;
-`
-export const HomeP = styled.p`
+        color: #fee12b;
+        font-size: clamp(15px, 18px, 25px);
+        font-weight: bold;
+    `
+    export const HomeP = styled.p`
         color: #D3D3D3;;
         font-size: 20px;
         max-width: 620px;
@@ -63,16 +61,12 @@ export const HomeP = styled.p`
         }
     `
 
-
-
-
-
     export const AboutContainerStyled = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 600px;
 
     `
 
