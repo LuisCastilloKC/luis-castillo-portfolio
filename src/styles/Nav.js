@@ -3,35 +3,36 @@ import styled from "styled-components";
 import { Link } from 'react-scroll'
 
 
-export const NavStyled = styled.nav`
-position: sticky;
-width: 100%;
-height: 55px;
-border-bottom: 2px;
-backdrop-filter: blur(60px);
-color: #FFF;
-padding: 0 30px;
-display: flex;
-justify-content: space-between;
-top: 0;
+  export const NavStyled = styled.nav`
+    position: sticky;
+    width: 100%;
+    height: 55px;
+    border-bottom: 2px;
+    backdrop-filter: blur(60px);
+    color: #FFF;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
 
-a:hover {
+    a:hover {
     color: #fee12b;
-}
+    cursor: pointer;
+    }
 
-.logo {
-padding: 15px 0;
-}
-`
+    .logo {
+    padding: 15px 0;
+    }
+  `
 
-export const LinkStyled = styled(Link)`
+  export const LinkStyled = styled(Link)`
     color: #FFFFFF;
     text-decoration: none;
 
-`
+  `
 
 
-export const RightNavStyled = styled.div`
+  export const RightNavStyled = styled.div`
 
     list-style: none;
     display: flex;

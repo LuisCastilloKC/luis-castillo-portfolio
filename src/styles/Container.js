@@ -7,8 +7,7 @@ import styled from 'styled-components'
         align-items: center;
         padding: 0 30px;
         height: 600px;
-        position: relative;
-        z-index: 1;
+    
     `;
 
     export const HomeContent = styled.div`
@@ -73,7 +72,6 @@ import styled from 'styled-components'
 
     export const AboutWrapper = styled.div`
         display: grid;
-        z-index: 1;
         height: 860px;
         width: 100%;
         max-width: 1100px;
