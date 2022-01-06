@@ -31,6 +31,21 @@ align-items: left;
 } 
 `
 
+export const HomeH1 = styled.h1`
+        color: #fff;
+        font-size: clamp(40px, 8vw, 80px);
+        font-weight: bold;
+
+        @media screen and (max-width: 768px){
+            font-size: 40px;
+        }
+
+        @media screen and (max-width: 480px){
+            font-size: 32px;
+        }
+    `
+
+
 
     export const AboutContainerStyled = styled.div`
     display: flex;
