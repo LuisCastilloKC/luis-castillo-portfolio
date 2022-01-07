@@ -154,6 +154,36 @@ import styled from 'styled-components'
     export const ProjectP = styled.p`
         text-align: left;
     `
+    export const ContactContainer = styled.div`
+    
+    `
+    export const ContactWrapper = styled.div`
+    
+    `
+    export const ContactContent = styled.div`
+    
+    `
+    export const ContactH1 = styled.h1`
+    
+    `
+    export const ConctactH2 = styled.h2`
+    
+    `
+    export const ContactP = styled.p`
+    
+    `
+    export const ContactGitHubIcon = styled.div`
+    
+    `
+    export const ContactLinkedInIcon = styled.div`
+    
+    `
+    export const ContactTwitterIcon = styled.div`
+    
+    `
+    export const ContactEmailIcon = styled.div`
+    
+    `
     
 
 

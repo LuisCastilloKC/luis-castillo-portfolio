@@ -1,5 +1,15 @@
 import React from 'react';
 import { FaEnvelope, FaGithub, FaLinkedinIn, FaTwitter} from 'react-icons/fa' 
+import { ContactContainer, 
+        ContactH1, 
+        ContactWrapper, 
+        ContactContent, 
+        ConctactH2, 
+        ContactP, 
+        ContactGitHubIcon, 
+        ContactLinkedInIcon, 
+        ContactTwitterIcon, 
+        ContactEmailIcon } from '../styles/Container';
 
 const Contact = () => {
     return (
