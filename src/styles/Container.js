@@ -6,7 +6,8 @@ import styled from 'styled-components'
         justify-content: center;
         align-items: center;
         padding: 0 30px;
-        height: 600px;
+        min-height: 100vh;
+        width: 100%;
     
     `;
 
@@ -68,6 +69,8 @@ import styled from 'styled-components'
         justify-content: center;
         text-align: center;
         margin: 0 24px;
+        min-height: 100vh;
+        width: 100%;
     `
 
     export const AboutWrapper = styled.div`
@@ -106,6 +109,8 @@ import styled from 'styled-components'
         justify-content: center;
         align-items: center;
         margin-bottom: 100px;
+        min-height: 100vh;
+        width: 100%;
     `
     export const ProjectWrapper = styled.div`
         display: grid;

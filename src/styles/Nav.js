@@ -8,12 +8,12 @@ import { Link } from 'react-scroll'
     width: 100%;
     height: 55px;
     border-bottom: 2px;
-    backdrop-filter: blur(60px);
     color: #FFF;
     padding: 0 30px;
     display: flex;
     justify-content: space-between;
     top: 0;
+    
 
     a:hover {
     color: #fee12b;
