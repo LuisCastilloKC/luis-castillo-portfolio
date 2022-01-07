@@ -9,7 +9,8 @@ import { ContactContainer,
         ContactGitHubIcon, 
         ContactLinkedInIcon, 
         ContactTwitterIcon, 
-        ContactEmailIcon } from '../styles/Container';
+        ContactEmailIcon,
+        ContactLinkContainer } from '../styles/Container';
 
 const Contact = () => {
     return (
@@ -19,19 +20,21 @@ const Contact = () => {
                 <ContactContent>
                     <ConctactH2>Lets Connect!</ConctactH2>
                     <ContactP>I'm currently open to work. Get in touch 
-                        with one of this method to get to me.</ContactP>
-            <ContactGitHubIcon> 
-                <a href="https://github.com/LuisCastilloKC" rel="noreferrer" target="_blank"><FaGithub /></a>
-            </ContactGitHubIcon>
-            <ContactLinkedInIcon> 
-                <a href="https://www.linkedin.com/in/luis-castillokc" rel="noreferrer" target="_blank"><FaLinkedinIn /></a>
-            </ContactLinkedInIcon >
-            <ContactTwitterIcon> 
-                <a href="https://twitter.com/LuisCastilloKC" rel="noreferrer" target="_blank"><FaTwitter /></a>
-            </ContactTwitterIcon>
-            <ContactEmailIcon> 
-                <a href="mailto:mr.luiscastillo@gmail.com" rel="noreferrer" target="_blank"><FaEnvelope /></a>
-            </ContactEmailIcon>
+                        with one of these method to get to me.</ContactP>
+            <ContactLinkContainer>
+                <ContactGitHubIcon> 
+                    <a href="https://github.com/LuisCastilloKC" rel="noreferrer" target="_blank"><FaGithub /></a>
+                </ContactGitHubIcon>
+                <ContactLinkedInIcon> 
+                    <a href="https://www.linkedin.com/in/luis-castillokc" rel="noreferrer" target="_blank"><FaLinkedinIn /></a>
+                </ContactLinkedInIcon >
+                <ContactTwitterIcon> 
+                    <a href="https://twitter.com/LuisCastilloKC" rel="noreferrer" target="_blank"><FaTwitter /></a>
+                </ContactTwitterIcon>
+                <ContactEmailIcon> 
+                    <a href="mailto:mr.luiscastillo@gmail.com" rel="noreferrer" target="_blank"><FaEnvelope /></a>
+                </ContactEmailIcon>
+            </ContactLinkContainer>
                 </ContactContent>        
             </ContactWrapper>
         </ContactContainer>

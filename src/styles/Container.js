@@ -155,7 +155,9 @@ import styled from 'styled-components'
         text-align: left;
     `
     export const ContactContainer = styled.div`
-    
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     `
     export const ContactWrapper = styled.div`
     
@@ -164,25 +166,38 @@ import styled from 'styled-components'
     
     `
     export const ContactH1 = styled.h1`
-    
-    `
+        color: #fff;
+        `
     export const ConctactH2 = styled.h2`
-    
-    `
+        color: #fff;
+        `
     export const ContactP = styled.p`
-    
-    `
+        color: #fff;
+        `
+    export const ContactLinkContainer = styled.div`
+        display: flex;
+        justify-content: center;
+        
+        `
     export const ContactGitHubIcon = styled.div`
-    
-    `
+        font-size: 3rem;
+        margin: 10px;
+        padding: 5px;
+        `
     export const ContactLinkedInIcon = styled.div`
-    
-    `
+        font-size: 3rem;
+        margin: 10px;
+        padding: 5px;
+        `
     export const ContactTwitterIcon = styled.div`
-    
+        font-size: 3rem;
+        margin: 10px;
+        padding: 5px;
     `
     export const ContactEmailIcon = styled.div`
-    
+        font-size: 3rem;
+        margin: 10px;
+        padding: 5px;
     `
     
 
