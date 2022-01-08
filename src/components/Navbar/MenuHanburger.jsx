@@ -11,9 +11,13 @@ const StyledMenuHanburger = styled.div`
     z-index: 20;
     display: none;
     @media (max-width: 768px) {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column nowrap;
+      display: flex;
+      justify-content: space-around;
+      flex-flow: column nowrap;
+      padding-right: 70px;
+    }
+    @media (max-width: 480px) {
+      padding-right: 50px;
   }
   div {
     width: 2rem;

@@ -50,7 +50,7 @@ import styled from 'styled-components'
         font-weight: bold;
     `
     export const HomeP = styled.p`
-        color: #D3D3D3;;
+        color: #D3D3D3;
         font-size: 20px;
         max-width: 620px;
 
@@ -80,6 +80,7 @@ import styled from 'styled-components'
         max-width: 1100px;
         margin-right: auto;
         margin-left: auto;
+        
     `
 
     export const AboutContentContainer = styled.div`
@@ -88,13 +89,17 @@ import styled from 'styled-components'
         margin: 0px 200px 0px 200px;
 
         @media screen and (max-width: 768px){
-            margin: 0px auto 0px auto;    
+            margin: 0 40px 0px 5px;   
         }
     `
     export const AboutH1 = styled.h1`
         color: #fff;
         font-size: 3.5rem;
         margin-bottom: 30px;
+        
+        @media screen and (max-width: 768px) {
+            margin-right: auto;
+        }
     `
     export const AboutP = styled.p`
         color: #D3D3D3;
