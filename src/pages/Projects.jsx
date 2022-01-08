@@ -9,6 +9,7 @@ const Projects = () => {
             <ProjectsContainerStyled id="projects">
             <ProjectH1>Projects</ProjectH1> 
                 <ProjectWrapper>
+                <a href="https://github.com/LuisCastilloKC/mlb_voting_app" rel="noreferrer" target="_blank">            
                     <ProjectCards>
                         <ProjectH3>MLB Voting App</ProjectH3>
                         <ProjectParagraphContainer>
@@ -27,6 +28,8 @@ const Projects = () => {
                             </ProjectP>
                         </ProjectParagraphContainer>
                     </ProjectCards>
+                    </a>
+                    <a href="https://github.com/LuisCastilloKC/mlb-scouting-report-sinatra-project" rel="noreferrer" target="_blank"> 
                     <ProjectCards>
                         <ProjectH3>MLB Scouting Report</ProjectH3>
                         <ProjectParagraphContainer>
@@ -43,6 +46,8 @@ const Projects = () => {
                                 </ul>
                         </ProjectParagraphContainer>
                     </ProjectCards>
+                    </a>
+                    <a href="https://github.com/LuisCastilloKC/MLB-baseball-card-collection-proj" rel="noreferrer" target="_blank"> 
                     <ProjectCards>
                         <ProjectH3>MLB Collection Card</ProjectH3>
                         <ProjectParagraphContainer>
@@ -59,6 +64,8 @@ const Projects = () => {
                                 </ul>
                         </ProjectParagraphContainer>
                     </ProjectCards>
+                    </a>
+                    <a href="https://github.com/LuisCastilloKC/player-log-mlb" rel="noreferrer" target="_blank"> 
                     <ProjectCards>
                         <ProjectH3>Player Log</ProjectH3>
                         <ProjectParagraphContainer>
@@ -73,6 +80,8 @@ const Projects = () => {
                                 </ul>
                         </ProjectParagraphContainer>
                     </ProjectCards>
+                    </a>
+                    <a href="https://github.com/LuisCastilloKC/mlb_cli" rel="noreferrer" target="_blank"> 
                     <ProjectCards>
                         <ProjectH3>NY Yakees Player Search (CLI)</ProjectH3>
                         <ProjectParagraphContainer>
@@ -86,6 +95,7 @@ const Projects = () => {
                                 </ul>
                         </ProjectParagraphContainer>
                     </ProjectCards>
+                    </a>
                 </ProjectWrapper>
             </ProjectsContainerStyled>
         </>

@@ -111,6 +111,11 @@ import styled from 'styled-components'
         margin-bottom: 300px;
         min-height: 100vh;
         width: 100%;
+
+        a, a:visited, a:hover, a:active {
+        color: inherit;
+        text-decoration: none;
+        }
     `
     export const ProjectWrapper = styled.div`
         display: grid;
