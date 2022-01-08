@@ -13,46 +13,77 @@ const Projects = () => {
                         <ProjectH3>MLB Voting App</ProjectH3>
                         <ProjectParagraphContainer>
                             <ProjectP>
-                               This app is been created with RactJS in the front end and Rails-API
-                               in the back in.
-
-                               Stacks:
-                               - RactJS (FrontEnd)
-                               - Rails (Backend)
-
-                               Library
-                               - Redux
-                               - Styled Components
-
+                            <ProjectP>
+                            React and Rails API app to allow users to create polls and vote for each player.
+                            </ProjectP>
+                            <br />
+                                <ul> 
+                                    <strong>Technology used</strong>
+                                    <li>RactJS (FrontEnd) </li>
+                                    <li>Rails (Backend) </li>
+                                    <li>Redux</li>
+                                    <li>Styled Components</li>
+                                </ul>
                             </ProjectP>
                         </ProjectParagraphContainer>
                     </ProjectCards>
                     <ProjectCards>
                         <ProjectH3>MLB Scouting Report</ProjectH3>
                         <ProjectParagraphContainer>
-                            <ProjectP>Project Description go here and more for the project and I knoe ofedhng odf dong odd nodfn undo ndo od dos do ods bodubodubfudbu dou udfb udfbub u
+                            <ProjectP>
+                            Sinatra web app that let user create scouting report for a baseball player.
                             </ProjectP>
+                            <br />
+                                <ul> 
+                                    <strong>Technology used</strong>
+                                    <li>Sinatra</li>
+                                    <li>SQLite 3</li>
+                                    <li>Sinatra</li>
+                                    <li>ActiveRecord</li>
+                                </ul>
                         </ProjectParagraphContainer>
                     </ProjectCards>
                     <ProjectCards>
                         <ProjectH3>MLB Collection Card</ProjectH3>
                         <ProjectParagraphContainer>
-                            <ProjectP>Project Description go here and more for the project and I knoe ofedhng odf dong odd nodfn undo ndo od dos do ods bodubodubfudbu dou udfb udfbub u
+                            <ProjectP>
+                            Ruby on Rails app that stores baseball player collection cards in picture format and let other users comment cards.
                             </ProjectP>
+                            <br />
+                                <ul> 
+                                    <strong>Technology used</strong>
+                                    <li>Ruby On Rails </li>
+                                    <li>Google Omni Auth</li>
+                                    <li>Active Storage</li>
+                                    <li>SQL</li>
+                                </ul>
                         </ProjectParagraphContainer>
                     </ProjectCards>
                     <ProjectCards>
                         <ProjectH3>Player Log</ProjectH3>
                         <ProjectParagraphContainer>
-                            <ProjectP>Project Description go here and more for the project and I knoe ofedhng odf dong odd nodfn undo ndo od dos do ods bodubodubfudbu dou udfb udfbub u
+                            <ProjectP>JavaScript app that allow user to create a team and add individual players to a team.
                             </ProjectP>
+                            <br />
+                                <ul> 
+                                    <strong>Technology used</strong>
+                                    <li>Vanilla JavaScript</li>
+                                    <li>Rails API (Backend) </li>
+                                    <li>CSS3</li>
+                                </ul>
                         </ProjectParagraphContainer>
                     </ProjectCards>
                     <ProjectCards>
                         <ProjectH3>NY Yakees Player Search (CLI)</ProjectH3>
                         <ProjectParagraphContainer>
-                            <ProjectP>Project Description go here and more for the project and I knoe ofedhng odf dong odd nodfn undo ndo od dos do ods bodubodubfudbu dou udfb udfbub u
+                            <ProjectP>A Command-Line Interface built with Ruby. User can search the 40-Man Roster from the NY Yankees.
                             </ProjectP>
+                            <br />
+                                <ul> 
+                                    <strong>Technology used</strong>
+                                    <li>Ruby</li>
+                                    <li>Yankees API</li>
+                                </ul>
                         </ProjectParagraphContainer>
                     </ProjectCards>
                 </ProjectWrapper>

@@ -108,7 +108,7 @@ import styled from 'styled-components'
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 100px;
+        margin-bottom: 300px;
         min-height: 100vh;
         width: 100%;
     `
@@ -118,6 +118,7 @@ import styled from 'styled-components'
         align-items: center;
         grid-gap: 16px;
         padding: 0 50px;
+        margin-bottom: auto;
 
         @media (max-width: 1000px) {
             grid-template-columns: 1fr 1fr;
