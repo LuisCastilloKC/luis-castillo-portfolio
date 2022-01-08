@@ -118,6 +118,15 @@ import styled from 'styled-components'
         align-items: center;
         grid-gap: 16px;
         padding: 0 50px;
+
+        @media (max-width: 1000px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr ;
+            padding: 0 20px;
+        }
     `
     export const ProjectCards = styled.div`
         background: #fff;
@@ -159,7 +168,6 @@ import styled from 'styled-components'
         align-items: center;
         flex-direction: column;
         min-height: 100vh;
-        
     `
     export const ContactWrapper = styled.div`
         padding: 0px;
@@ -167,6 +175,14 @@ import styled from 'styled-components'
     export const ContactContent = styled.div`
         padding: 10px;
         
+        @media screen and (max-width: 768px){
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 30px;
+        }
+
     `
     export const ContactH1 = styled.h1`
         color: #fff;
@@ -175,16 +191,35 @@ import styled from 'styled-components'
     export const ConctactH2 = styled.h2`
         color: #fff;
         font-size: 1.5rem;
+
+         @media screen and (max-width: 768px){
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 10px;
+        }
         `
     export const ContactP = styled.p`
         color: #fff;
         font-size: 1.5rem;
+
+        @media screen and (max-width: 768px){
+            font-size: 1.3rem;
+            text-align: left;
+        }
+        
         `
     export const ContactLinkContainer = styled.div`
         display: flex;
         justify-content: center;
         margin-top: 20px;
-        
+
+        @media screen and (max-width: 768px){
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
         
         `
     export const ContactGitHubIcon = styled.div`
@@ -197,7 +232,7 @@ import styled from 'styled-components'
         margin: 10px;
         border-radius: 50%;
         border: solid #fff;
-        
+
         &:hover {
         transform: scale(1.04);
         transition: all 0.2s ease-in-out;
@@ -208,6 +243,7 @@ import styled from 'styled-components'
             color: #fff;
             
         }
+        
         `
     export const ContactLinkedInIcon = styled.div`
         display: inline-block;

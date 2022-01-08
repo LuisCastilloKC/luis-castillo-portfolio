@@ -29,12 +29,13 @@ export const SocialMedia = styled.div`
     }
     
     @media (max-width: 768px) {
-        display: flex;
+        display: none;
+        /* display: flex;
         flex-direction: row;
         left: 20px;
         position: static;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 20px; */
     }
 
 `;
