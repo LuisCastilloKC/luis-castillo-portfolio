@@ -212,7 +212,7 @@ import styled from 'styled-components'
         }
         `
     export const ContactP = styled.p`
-        color: #fff;
+        color: #D3D3D3;
         font-size: 1.5rem;
 
         @media screen and (max-width: 768px){
