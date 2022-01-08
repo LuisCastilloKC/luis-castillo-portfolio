@@ -75,7 +75,7 @@ import styled from 'styled-components'
 
     export const AboutWrapper = styled.div`
         display: grid;
-        height: 860px;
+        height: 560px;
         width: 100%;
         max-width: 1100px;
         margin-right: auto;
@@ -158,47 +158,118 @@ import styled from 'styled-components'
         display: flex;
         align-items: center;
         flex-direction: column;
+        min-height: 100vh;
+        
     `
     export const ContactWrapper = styled.div`
-    
+        padding: 0px;
     `
     export const ContactContent = styled.div`
-    
+        padding: 10px;
+        
     `
     export const ContactH1 = styled.h1`
         color: #fff;
+        font-size: 3.5rem;
         `
     export const ConctactH2 = styled.h2`
         color: #fff;
+        font-size: 1.5rem;
         `
     export const ContactP = styled.p`
         color: #fff;
+        font-size: 1.5rem;
         `
     export const ContactLinkContainer = styled.div`
         display: flex;
         justify-content: center;
+        margin-top: 20px;
+        
         
         `
     export const ContactGitHubIcon = styled.div`
+        display: inline-block;
+        text-align: center;
+        width: 2.4em;
+        height: 2.4em;
+        line-height: 2.4em;
         font-size: 3rem;
         margin: 10px;
-        padding: 5px;
+        border-radius: 50%;
+        border: solid #fff;
+        
+        &:hover {
+        transform: scale(1.04);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        }
+        
+        a {
+            color: #fff;
+            
+        }
         `
     export const ContactLinkedInIcon = styled.div`
+        display: inline-block;
+        text-align: center;
+        width: 2.4em;
+        height: 2.4em;
+        line-height: 2.4em;
         font-size: 3rem;
         margin: 10px;
-        padding: 5px;
+        border-radius: 50%;
+        border: solid #fff;
+
+        &:hover {
+        transform: scale(1.04);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        }
+
+        a {
+            color: #2867B2;
+        }
         `
     export const ContactTwitterIcon = styled.div`
+        display: inline-block;
+        text-align: center;
+        width: 2.4em;
+        height: 2.4em;
+        line-height: 2.4em;
         font-size: 3rem;
         margin: 10px;
-        padding: 5px;
+        border-radius: 50%;
+        border: solid #fff;
+
+        &:hover {
+        transform: scale(1.04);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        }
+
+        a {
+            color: #1DA1F2;
+        }
     `
     export const ContactEmailIcon = styled.div`
+        display: inline-block;
+        text-align: center;
+        width: 2.4em;
+        height: 2.4em;
+        line-height: 2.4em;
         font-size: 3rem;
         margin: 10px;
-        padding: 5px;
+        border-radius: 50%;
+        border: solid #fff;
+        
+        &:hover {
+        transform: scale(1.04);
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        }
+        
+        a {
+            color: #fff;
+        }
     `
     
-
-

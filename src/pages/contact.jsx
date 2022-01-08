@@ -14,7 +14,7 @@ import { ContactContainer,
 
 const Contact = () => {
     return (
-        <ContactContainer>
+        <ContactContainer id="contact">
             <ContactH1>Say Hello</ContactH1>
             <ContactWrapper>
                 <ContactContent>
