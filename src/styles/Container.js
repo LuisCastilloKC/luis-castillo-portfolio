@@ -166,7 +166,7 @@ import styled from 'styled-components'
     `
     export const ProjectH3 = styled.h3`
         text-align: center;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         margin-bottom: 10px;    
     `
     export const ProjectLi = styled.li`

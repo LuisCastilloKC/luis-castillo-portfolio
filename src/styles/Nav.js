@@ -7,6 +7,7 @@ import { Link } from 'react-scroll'
     position: sticky;
     width: 100%;
     height: 55px;
+    border-top-style: hidden;
     border-bottom: 2px;
     color: #FFF;
     padding: 0 30px;
