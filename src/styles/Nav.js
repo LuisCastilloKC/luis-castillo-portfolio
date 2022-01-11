@@ -13,6 +13,7 @@ import { Link } from 'react-scroll'
     display: flex;
     justify-content: space-between;
     top: 0;
+    background-color: #05182c;
     
 
     a:hover {
@@ -50,8 +51,8 @@ import { Link } from 'react-scroll'
     transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
-    height: 100vh;
-    width: 300px;
+    height: 107vh;
+    width: 250px;
     padding-top: 3.5rem;
     transition: transform 0.3s ease-in-out;
     

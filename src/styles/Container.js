@@ -12,9 +12,7 @@ import styled from 'styled-components'
     `;
 
     export const HomeContent = styled.div`
-        z-index: 3;
         max-width: 1200px;
-        position: absolute;
         padding: 8px 24px;
         display: flex;
         flex-direction: column;
@@ -39,27 +37,23 @@ import styled from 'styled-components'
         @media screen and (max-width: 768px){
             font-size: 3rem;
         }
-
-        @media screen and (max-width: 480px){
-            font-size: 32px;
-        }
     `
     export const HomeH3 = styled.h3`
         color: #fee12b;
-        font-size: clamp(15px, 18px, 25px);
+        font-size: 1.3rem;
         font-weight: bold;
+
+        @media screen and (max-width: 768px){
+            font-size: 1.2rem;    
+        }
     `
     export const HomeP = styled.p`
         color: #D3D3D3;
-        font-size: 20px;
+        font-size: 1.3rem;
         max-width: 620px;
 
         @media screen and (max-width: 768px){
-            font-size: 20px;    
-        }
-
-        @media screen and (max-width: 480px){
-            font-size: 18px;
+            font-size: 1.2rem;    
         }
     `
 
@@ -99,13 +93,20 @@ import styled from 'styled-components'
         
         @media screen and (max-width: 768px) {
             margin-right: auto;
+            font-size: 3.0rem;
         }
     `
     export const AboutP = styled.p`
         color: #D3D3D3;
         text-align: left;
-        font-size: 20px;
-        line-height: 1.3;   
+        font-size: 1.3rem;
+        line-height: 1.3;
+
+        @media screen and (max-width: 768px){
+            font-size: 1.2rem;
+            text-align: left;
+        }
+        
     `
 
     export const ProjectsContainerStyled = styled.div`
@@ -158,6 +159,10 @@ import styled from 'styled-components'
         font-size: 3.5rem;
         color: #fff;
         margin-bottom: 30px;
+
+        @media screen and (max-width: 768px){
+            font-size: 3.0rem;
+        }
     `
     export const ProjectH3 = styled.h3`
         text-align: center;
@@ -184,7 +189,8 @@ import styled from 'styled-components'
         padding: 0px;
     `
     export const ContactContent = styled.div`
-        padding: 10px;
+  
+        padding: 10px 150px;
         
         @media screen and (max-width: 768px){
             display: flex;
@@ -198,6 +204,10 @@ import styled from 'styled-components'
     export const ContactH1 = styled.h1`
         color: #fff;
         font-size: 3.5rem;
+    
+        @media screen and (max-width: 768px){
+            font-size: 3.0rem;
+        }
         `
     export const ConctactH2 = styled.h2`
         color: #fff;
@@ -209,15 +219,16 @@ import styled from 'styled-components'
             flex-direction: column;
             text-align: center;
             padding: 10px;
+            font-size: 1.4rem;
         }
         `
     export const ContactP = styled.p`
         color: #D3D3D3;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
 
         @media screen and (max-width: 768px){
-            font-size: 1.3rem;
-            text-align: left;
+            font-size: 1.2rem;
+            text-align: center;
         }
         
         `
@@ -239,7 +250,7 @@ import styled from 'styled-components'
         width: 2.4em;
         height: 2.4em;
         line-height: 2.4em;
-        font-size: 3rem;
+        font-size: 2.3rem;
         margin: 10px;
         border-radius: 50%;
         border: solid #fff;
@@ -262,7 +273,7 @@ import styled from 'styled-components'
         width: 2.4em;
         height: 2.4em;
         line-height: 2.4em;
-        font-size: 3rem;
+        font-size: 2.3rem;
         margin: 10px;
         border-radius: 50%;
         border: solid #fff;
@@ -283,7 +294,7 @@ import styled from 'styled-components'
         width: 2.4em;
         height: 2.4em;
         line-height: 2.4em;
-        font-size: 3rem;
+        font-size: 2.3rem;
         margin: 10px;
         border-radius: 50%;
         border: solid #fff;
@@ -304,7 +315,7 @@ import styled from 'styled-components'
         width: 2.4em;
         height: 2.4em;
         line-height: 2.4em;
-        font-size: 3rem;
+        font-size: 2.3rem;
         margin: 10px;
         border-radius: 50%;
         border: solid #fff;

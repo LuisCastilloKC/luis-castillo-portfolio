@@ -41,7 +41,6 @@ const Projects = () => {
                                     <strong>Technology used</strong>
                                     <li>Sinatra</li>
                                     <li>SQLite 3</li>
-                                    <li>Sinatra</li>
                                     <li>ActiveRecord</li>
                                 </ul>
                         </ProjectParagraphContainer>
