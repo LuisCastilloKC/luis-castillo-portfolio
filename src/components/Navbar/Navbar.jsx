@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuHanburger from './MenuHanburger';
+import MenuHamburger from './MenuHamburger';
 import { LinkStyled, NavStyled } from '../../styles/Nav';
 
 
@@ -10,7 +10,7 @@ const Navbar = () => {
             <div className="logo">
                 <h1><LinkStyled to='/'>LUIS</LinkStyled></h1>
             </div>
-            <MenuHanburger />
+            <MenuHamburger />
         </NavStyled>
     );
 }

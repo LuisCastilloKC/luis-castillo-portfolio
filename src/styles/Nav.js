@@ -10,7 +10,7 @@ import { Link } from 'react-scroll'
     border-top-style: hidden;
     border-bottom: 2px;
     color: #FFF;
-    padding: 0 30px;
+    padding: 0  50px  0 30px;
     display: flex;
     justify-content: space-between;
     top: 0;
@@ -24,6 +24,10 @@ import { Link } from 'react-scroll'
 
     .logo {
     padding: 15px 0;
+    }
+
+    @media screen and (max-width: 480px) {
+      padding-left: 10px;
     }
   `
 
@@ -49,7 +53,7 @@ import { Link } from 'react-scroll'
     flex-flow: column nowrap;
     background-color: #0D2538;
     position: fixed;
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+    transform: ${({ isOpen }) => isOpen ? 'translateX(0)' : 'translateX(100%)'};
     top: 0;
     right: 0;
     height: 107vh;
@@ -63,3 +67,39 @@ import { Link } from 'react-scroll'
   }
 `;
 
+  export const StyledMenuHamburger = styled.div`
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 20;
+    display: none;
+    @media (max-width: 768px) {
+      display: flex;
+      justify-content: space-around;
+      flex-flow: column nowrap;
+      padding-right: 65px;
+    }
+    @media (max-width: 480px) {
+      padding-right: 47px;
+  }
+  div {
+    width: 2rem;
+    height: 0.25rem;
+    background-color: ${({ isOpen }) => isOpen ? '#ccc' : '#fff'};
+    border-radius: 10px;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+    &:nth-child(1) {
+      transform: ${({ isOpen }) => isOpen ? 'rotate(45deg)' : 'rotate(0)'};
+    }
+    &:nth-child(2) {
+      transform: ${({ isOpen }) => isOpen ? 'translateX(100%)' : 'translateX(0)'};
+      opacity: ${({ isOpen }) => isOpen ? 0 : 1};
+    }
+    &:nth-child(3) {
+      transform: ${({ isOpen }) => isOpen ? 'rotate(-45deg)' : 'rotate(0)'};
+    }
+  }
+`;
