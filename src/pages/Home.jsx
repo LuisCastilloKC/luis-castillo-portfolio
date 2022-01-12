@@ -14,7 +14,7 @@ const Home = () => {
             <HomeH1>Luis Castillo</HomeH1>
             <HomeP >
             A Full-Stack Web Developer base on New York, USA. 
-            I love building tools that are user-friendly, simple and delighful.
+            I love building tools that are user-friendly, simple and delightful.
             </HomeP>
             </HomeContent>
         </HomeContainerStyled>
