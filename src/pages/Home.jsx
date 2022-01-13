@@ -13,7 +13,7 @@ const Home = () => {
             <HomeH3>Hi, I am</HomeH3>
             <HomeH1>Luis Castillo</HomeH1>
             <HomeP >
-            A Full-Stack Web Developer base on New York, USA. 
+            A Full-Stack Web Developer based in New York, USA. 
             I love building tools that are user-friendly, simple and delightful.
             </HomeP>
             </HomeContent>
