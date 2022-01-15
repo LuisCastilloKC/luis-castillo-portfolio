@@ -1,5 +1,13 @@
 import React from 'react';
-import { AboutContainerStyled, AboutWrapper, AboutContentContainer, AboutH1, AboutP} from '../styles/Container';
+import { AboutContainerStyled, 
+        AboutWrapper, 
+        AboutContentContainer, 
+        AboutH1, 
+        AboutP, 
+        LanguageIcon,
+        LanguageImage, LanguageImageWrapper } from '../styles/Container';
+import  LanguagesImage from '../img/index';
+ 
 
 const About = () => {
     return (
@@ -16,8 +24,41 @@ const About = () => {
                             new technology, writing high-quality code, and observing best practices.
                         </AboutP>
                     </AboutContentContainer>
+                    <LanguageImageWrapper>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.css3Logo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.html5Logo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.gitLogo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.javascriptLogo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.postgresqlLogo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.railsLogo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.reactjsLogo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.reduxLogo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.rubyLogo} alt={'css3'}/>
+                            </LanguageIcon>
+                            <LanguageIcon>
+                                <LanguageImage src={LanguagesImage.styledcomponentLogo} alt={'css3'}/>
+                            </LanguageIcon>
+                     </LanguageImageWrapper>
                 </AboutWrapper>
             </AboutContainerStyled>
+
         </>
     );
 }

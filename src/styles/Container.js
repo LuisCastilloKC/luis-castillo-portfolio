@@ -78,7 +78,7 @@ import styled from 'styled-components'
     `
 
     export const AboutContentContainer = styled.div`
-        display:flex;
+        
         background: transparent;
         margin: 0px 200px 0px 200px;
 
@@ -107,6 +107,34 @@ import styled from 'styled-components'
             text-align: left;
         }
         
+    `
+    export const LanguageImageWrapper = styled.div`
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        padding: 70px 300px;
+    `
+    export const LanguageIcon = styled.div`
+        display: flex;
+        justify-content: center;
+        width: 2.4em;
+        height: 2.4em;
+        line-height: 2.4em;
+        font-size: 2.3rem;
+        margin: 10px;
+        border-radius: 50%;
+        border: solid #fff;
+
+        &:hover {
+            transform: scale(1.04);
+            transition: all 0.2s ease-in-out;
+            cursor: pointer;
+        }
+
+    `
+    export const LanguageImage = styled.img`
+        width: 50px;
+    
     `
 
     export const ProjectsContainerStyled = styled.div`
