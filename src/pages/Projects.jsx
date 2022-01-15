@@ -9,6 +9,26 @@ const Projects = () => {
             <ProjectsContainerStyled id="projects">
             <ProjectH1>Projects</ProjectH1> 
                 <ProjectWrapper>
+                <a href="https://github.com/LuisCastilloKC/luis-castillo-portfolio" rel="noreferrer" target="_blank">            
+                    <ProjectCards>
+                        <ProjectH3>LuisCastillo PortFolio</ProjectH3>
+                        <ProjectParagraphContainer>
+                            <ProjectP>
+                            <ProjectP>
+                            ReactJS portfolio  a single page to show personal projects and a little about my self.
+                            </ProjectP>
+                            <br />
+                                <ul> 
+                                    <strong>Technology used</strong>
+                                    <li>RactJS (FrontEnd) </li>
+                                    <li>React Scroll</li>
+                                    <li>React Icon</li>
+                                    <li>Styled Components</li>
+                                </ul>
+                            </ProjectP>
+                        </ProjectParagraphContainer>
+                    </ProjectCards>
+                    </a>
                 <a href="https://github.com/LuisCastilloKC/mlb_voting_app" rel="noreferrer" target="_blank">            
                     <ProjectCards>
                         <ProjectH3>MLB Voting App</ProjectH3>
