@@ -5,7 +5,7 @@ import styled from 'styled-components'
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 30px;
+        padding: 0px 30px;
         min-height: 100vh;
         width: 100%;
     
@@ -58,7 +58,6 @@ import styled from 'styled-components'
     `
 
     export const AboutContainerStyled = styled.div`
-        display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -94,17 +93,20 @@ import styled from 'styled-components'
         @media screen and (max-width: 768px) {
             margin-right: auto;
             font-size: 3.0rem;
+           
         }
     `
     export const AboutP = styled.p`
+        padding-left: 30px;
         color: #D3D3D3;
         text-align: left;
         font-size: 1.3rem;
         line-height: 1.3;
 
         @media screen and (max-width: 768px){
+            padding-left: 0px;
             font-size: 1.2rem;
-            text-align: left;
+            text-align: center;
         }
         
     `
@@ -112,8 +114,53 @@ import styled from 'styled-components'
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         align-items: center;
-        padding: 70px 300px;
+        padding: 2px 250px;
+        margin: 0px;
+
+        @media screen and (max-width: 1000px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media screen and (max-width: 768px) {
+            grid-template-columns: 1fr 1fr ;
+            padding: 50px 50px;   
+        }
     `
+    export const LanguagueNameH2 = styled.h2`
+        color: #fff;
+        font-size: 1.5rem;
+
+        @media (max-width: 1000px) {
+            padding-top: 50px;
+        }
+
+        @media screen and (max-width: 768px){
+            align-items: center;
+            text-align: center;
+            padding: 10px;
+            font-size: 1.4rem;
+            padding-top: 50px;
+        }
+        
+    `
+    export const LanguageP = styled.p`
+        margin: 0px 200px;
+        color: #D3D3D3;
+        text-align: center;
+        font-size: 1.3rem;
+        line-height: 1.3;
+        
+
+        @media screen and (max-width: 768px){
+            padding-left: 0px;
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 0px;
+            margin-left: 8px;
+            margin-right: 40px;
+        }
+    `    
+
     export const LanguageIcon = styled.div`
         display: flex;
         justify-content: center;
@@ -133,7 +180,7 @@ import styled from 'styled-components'
 
     `
     export const LanguageImage = styled.img`
-        width: 50px;
+        width: 55px;
     
     `
 
@@ -145,6 +192,20 @@ import styled from 'styled-components'
         margin-bottom: 300px;
         min-height: 100vh;
         width: 100%;
+
+        @media screen and (max-width: 1024px) {
+            padding-top: 0px;
+        }
+
+        @media screen and (max-width: 768px) {
+            padding-top: 400px;
+        }
+
+        @media screen and (max-width: 458px) {
+            padding-top: 600px;
+        }
+
+
 
         a, a:visited, a:hover, a:active {
         color: inherit;
@@ -165,7 +226,7 @@ import styled from 'styled-components'
 
         @media (max-width: 768px) {
             grid-template-columns: 1fr ;
-            padding: 0 20px;
+            padding: 0px 20px;
         }
     `
     export const ProjectCards = styled.div`

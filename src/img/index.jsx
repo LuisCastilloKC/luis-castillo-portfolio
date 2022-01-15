@@ -9,7 +9,7 @@ const LanguagesImage = {
     reactjsLogo: require('./reactjs.svg').default,
     reduxLogo: require('./redux.svg').default,
     rubyLogo: require('./ruby.svg').default,
-    styledcomponentLogo: require('./styledComponent.png').default
+    styledcomponentLogo: require('./styledComponent.svg').default
 }
 
 export default LanguagesImage;

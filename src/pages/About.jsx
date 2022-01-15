@@ -5,7 +5,7 @@ import { AboutContainerStyled,
         AboutH1, 
         AboutP, 
         LanguageIcon,
-        LanguageImage, LanguageImageWrapper } from '../styles/Container';
+        LanguageImage, LanguageImageWrapper, LanguagueNameH2, LanguageP } from '../styles/Container';
 import  LanguagesImage from '../img/index';
  
 
@@ -24,6 +24,8 @@ const About = () => {
                             new technology, writing high-quality code, and observing best practices.
                         </AboutP>
                     </AboutContentContainer>
+                            <LanguagueNameH2>My Stack</LanguagueNameH2>
+                            <LanguageP>CSS3 | HTM5 | Git | JavaScript | PostgreSQL | Rails | ReactJS | Redux | Ruby | Styled Component</LanguageP>
                     <LanguageImageWrapper>
                             <LanguageIcon>
                                 <LanguageImage src={LanguagesImage.css3Logo} alt={'css3'}/>

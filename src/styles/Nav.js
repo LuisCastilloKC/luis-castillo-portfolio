@@ -82,7 +82,7 @@ import { Link } from 'react-scroll'
       padding-right: 65px;
     }
     @media (max-width: 480px) {
-      padding-right: 47px;
+      padding-right: 55px;
   }
   div {
     width: 2rem;
