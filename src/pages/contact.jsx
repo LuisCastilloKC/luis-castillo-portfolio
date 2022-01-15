@@ -19,8 +19,7 @@ const Contact = () => {
             <ContactWrapper>
                 <ContactContent>
                     <ConctactH2>Lets Connect!</ConctactH2>
-                    <ContactP>I'm currently open to work for Front-end Developer, Back-end Developer, Full-Stack Developer. Get in touch 
-                        with one of these method to get me.</ContactP>
+                    <ContactP>I'm currently open to work for Front-end Developer, Back-end Developer, and  Full-Stack Developer.</ContactP>
             <ContactLinkContainer>
                 <ContactGitHubIcon> 
                     <a href="https://github.com/LuisCastilloKC" rel="noreferrer" target="_blank"><FaGithub /></a>
