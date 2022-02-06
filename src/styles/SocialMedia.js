@@ -28,14 +28,21 @@ export const SocialMedia = styled.div`
        
     }
     
-    @media (max-width: 768px) {
-        display: none;
-        /* display: flex;
-        flex-direction: row;
-        left: 20px;
-        position: static;
-        justify-content: center;
-        margin-bottom: 20px; */
+    @media only screen 
+        and (min-device-width : 768px) 
+        and (max-device-width : 1280px)     
+        and (orientation : landscape) {
+            right: 40px;
     }
+    @media only screen 
+        and (min-device-width : 768px) 
+        and (max-device-width : 124px) 
+        and (orientation : portrait) {
+            right: 30px;
+            padding-bottom: 100px;
+
+    }
+   
+  
 
 `;

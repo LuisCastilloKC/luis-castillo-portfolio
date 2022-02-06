@@ -12,8 +12,7 @@ const Projects = () => {
                 <a href="https://github.com/LuisCastilloKC/luis-castillo-portfolio" rel="noreferrer" target="_blank">            
                     <ProjectCards>
                         <ProjectH3>LuisCastillo PortFolio</ProjectH3>
-                        <ProjectParagraphContainer>
-                            <ProjectP>
+                        <ProjectParagraphContainer>                      
                             <ProjectP>
                             ReactJS portfolio  a single page to show personal projects and a little about my self.
                             </ProjectP>
@@ -24,16 +23,14 @@ const Projects = () => {
                                     <li>React Scroll</li>
                                     <li>React Icon</li>
                                     <li>Styled Components</li>
-                                </ul>
-                            </ProjectP>
+                                </ul>      
                         </ProjectParagraphContainer>
                     </ProjectCards>
                     </a>
                 <a href="https://github.com/LuisCastilloKC/mlb_voting_app" rel="noreferrer" target="_blank">            
                     <ProjectCards>
                         <ProjectH3>MLB Voting App</ProjectH3>
-                        <ProjectParagraphContainer>
-                            <ProjectP>
+                        <ProjectParagraphContainer>                         
                             <ProjectP>
                             React and Rails API app to allow users to create polls and vote for each player.
                             </ProjectP>
@@ -44,8 +41,7 @@ const Projects = () => {
                                     <li>Rails (Backend) </li>
                                     <li>Redux</li>
                                     <li>Styled Components</li>
-                                </ul>
-                            </ProjectP>
+                                </ul>                          
                         </ProjectParagraphContainer>
                     </ProjectCards>
                     </a>

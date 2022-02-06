@@ -5,7 +5,6 @@ import { Link } from 'react-scroll'
 
   export const NavStyled = styled.nav`
     position: sticky;
-    width: 100%;
     height: 55px;
     border-top-style: hidden;
     border-bottom: 2px;
@@ -15,7 +14,7 @@ import { Link } from 'react-scroll'
     justify-content: space-between;
     top: 0;
     background-color: #05182c;
-    
+    box-sizing: border-box;
 
     a:hover {
     color: #fee12b;
@@ -24,6 +23,7 @@ import { Link } from 'react-scroll'
 
     .logo {
     padding: 15px 0;
+    margin-left: 10px ;
     }
 
     @media screen and (max-width: 480px) {
@@ -39,11 +39,11 @@ import { Link } from 'react-scroll'
 
 
   export const RightNavStyled = styled.div`
-
-    list-style: none;
     display: flex;
     flex-flow: row nowrap;
+    list-style: none;
     align-items: center;
+
     
     li {
     padding: 18px 10px;
@@ -72,18 +72,21 @@ import { Link } from 'react-scroll'
     height: 2rem;
     position: fixed;
     top: 15px;
-    right: 20px;
+    right: 1px;
     z-index: 20;
     display: none;
     @media (max-width: 768px) {
       display: flex;
+      right: 1px;
       justify-content: space-around;
       flex-flow: column nowrap;
       padding-right: 65px;
     }
     @media (max-width: 480px) {
       padding-right: 55px;
+      right: 10px;
   }
+
   div {
     width: 2rem;
     height: 0.25rem;

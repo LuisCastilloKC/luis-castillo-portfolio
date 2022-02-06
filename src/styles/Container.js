@@ -6,7 +6,7 @@ import styled from 'styled-components'
         justify-content: center;
         align-items: center;
         padding: 0px 30px;
-        min-height: 100vh;
+        min-height: 100vh; 
         width: 100%;
     
     `;
@@ -14,9 +14,7 @@ import styled from 'styled-components'
     export const HomeContent = styled.div`
         max-width: 1200px;
         padding: 8px 24px;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
+       
 
     @media screen and (max-width: 768px){
         font-size: 15px;
@@ -64,11 +62,20 @@ import styled from 'styled-components'
         margin: 0 24px;
         min-height: 100vh;
         width: 100%;
+
+        @media screen and (max-width: 998px){
+            margin-bottom: 300px;
+        }
+
+        @media screen and (max-width: 768px){
+            margin-bottom: 150px ;
+            
+           
+        }
     `
 
     export const AboutWrapper = styled.div`
         display: grid;
-        height: 560px;
         width: 100%;
         max-width: 1100px;
         margin-right: auto;
@@ -198,11 +205,7 @@ import styled from 'styled-components'
         }
 
         @media screen and (max-width: 768px) {
-            padding-top: 400px;
-        }
-
-        @media screen and (max-width: 458px) {
-            padding-top: 600px;
+            padding-top: 50px;
         }
 
 
