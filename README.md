@@ -8,9 +8,9 @@
 
 
 <p>Welcome to my portfolio. Here you will be able to find the most updated projects that I worked on, and the experience with the languages and framework that I used.</p>
-<p>This portfolio app was built as a single page with the lovely library ReactJS and I beautified it with Styled Component, additionally, I use React icon to add these icons. If you have any feedback, they are more than welcome, and it can be sent to me directly to <a href="mailto:mr.luiscastillo@gmail.com"> My Email</a>
+<p>This portfolio app was built as a single page with the lovely library ReactJS, and I beautified it with Styled Component. Additionally, I used React icon to add these icons. If you have any feedback, they are more than welcome, and it can be sent to me directly to <a href="mailto:mr.luiscastillo@gmail.com"> My Email</a>
 
- <p>If you think I did a great job leave me a star on this repo, I will appreciate it. This Portfolio was built with:</p>
+ <p>If you think I did a great job, leave me a star on this repo; I will appreciate it. This Portfolio was built with:</p>
 
 
 <ul> 
@@ -21,13 +21,14 @@
 </ul>
 
 # App purpose
-The purpose of this app is to showcase all my personal project and experience as I keep growing as a Software Engineer.
+This app aims to showcase all my projects and experience as I grow as a Software Engineer.
 
 # Function
-This app is build as a single page, user can navigae through the page by clicking the Nav menu where it has the funcionally to scroll to the spesific component, the app is also mobile friendly.
+This app is built as a single page; users can navigate through the page by clicking the Nav menu, where it has the function to scroll to the specific component; the app is also mobile-friendly.
 
 # Dependencies
-Dependecies I used to build this portofilio app was:
+Dependencies I used to build this portfolio app was:
+
 1. React Scroll
 2. React Icons
 3. Styled Components
@@ -35,3 +36,4 @@ Dependecies I used to build this portofilio app was:
 
 # Build
 This portfolio app was deployed using the friendly Netlify and GitHub.
+
