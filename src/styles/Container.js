@@ -243,8 +243,7 @@ import styled from 'styled-components'
 
     &:hover {
         transform: scale(1.02);
-        transition: all 0.2s ease-in-out;
-        cursor: pointer;
+        transition: all 0.2s ease-in-out; 
         }
     `
     export const ProjectH1 = styled.h1`
@@ -267,6 +266,11 @@ import styled from 'styled-components'
 
     export const ProjectParagraphContainer = styled.div`
        margin-left: 2px;
+
+       a:hover {
+        color: #feb236;
+        cursor: pointer;
+        }
     `
     export const ProjectP = styled.p`
         text-align: left;
@@ -422,4 +426,5 @@ import styled from 'styled-components'
             color: #fff;
         }
     `
-    
+
+
